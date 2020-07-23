@@ -1,0 +1,52 @@
+body {
+    background-color: plum;
+}
+
+#grid {
+    padding: 15px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+#grid article {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#item-1 {
+    background-color: lightblue;
+}
+
+#item-2 {
+    background: aqua;  
+}
+
+#item-3 {
+    background: skyblue;
+}
+
+#item-4 {
+    background: aquamarine;
+}
+
+#item-5 {
+    background-color: deepskyblue;
+}
+
+#item-6 {
+    background-color: darkcyan;
+}
+
+#item-7 {
+    background-color: darkturquoise;
+}
+
+#item-8 {
+    background-color: cadetblue;
+}
+
+#item-9 {
+    background-color: dodgerblue;
+}

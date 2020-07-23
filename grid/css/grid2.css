@@ -1,0 +1,35 @@
+body {
+    background-color: plum;
+}
+
+#pagina {
+    height: 700px;
+    display: grid;
+    grid-template-areas: "cabecera cabecera" 
+                         "menu cuerpo"
+                         "menu pie";
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-columns: 200px 1fr;
+}
+
+header {
+    background-color: lightcoral;
+    grid-area: cabecera;
+}
+
+nav {
+    background-color: palegoldenrod;
+    grid-area: menu;
+}
+
+section {
+    background-color: lightsalmon;
+    grid-area: cuerpo;  
+}
+
+footer {
+    background-color: peachpuff;
+    grid-area: pie;
+}
