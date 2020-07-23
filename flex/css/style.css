@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(206, 177, 194);
+    padding: 30px;
+}
+
+#contenedor_padre {
+    background-color: rgb(151, 151, 202);
+    padding: 3%;
+}
+
+#contenedor_hijo_1 {
+    background-color: cornsilk;
+    
+}
+
+#contenedor_hijo_2 {
+    background-color: cyan;
+
+}
+
+.contenedor_hijo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    display: inline-block;
+}
