@@ -6,6 +6,8 @@ body {
 #contenedor_padre {
     background-color: rgb(151, 151, 202);
     padding: 3%;
+    display: flex;
+    flex-direction:  ;
 }
 
 #contenedor_hijo_1 {
@@ -18,9 +20,14 @@ body {
 
 }
 
+#contenedor_hijo_3 {
+    background-color: pink;
+
+}
 .contenedor_hijo {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     width: 40%;
-    display: inline-block;
+    text-align: center;
+    margin: 2px;
 }
