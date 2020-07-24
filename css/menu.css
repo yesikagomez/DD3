@@ -1,0 +1,22 @@
+#menu2 {
+    font-size: large;
+    padding: 15px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: black;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
