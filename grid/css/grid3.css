@@ -1,0 +1,38 @@
+body {
+    padding: 1%;
+    background-color: blanchedalmond;
+}
+
+#principal {
+    display: grid;
+    grid-template-areas: "cabecera cabecera cabecera"
+                         "seccion seccion aside"
+                         "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px  1fr 80px ;
+    gap: 20px;
+}
+
+#cabecera {
+    background-color: burlywood;
+    padding: 5%;
+    grid-area: cabecera;
+}
+
+#contenedor_1 {
+    background-color: cornsilk;
+    padding: 6%;
+    grid-area: seccion;
+}
+
+#contenedor_2 {
+    background-color: darkgrey;
+    padding: 8%;
+    grid-area: aside;
+}
+
+#pie_pagina {
+    background-color:darksalmon;
+    padding: 2%;
+    grid-area: footer;
+}
