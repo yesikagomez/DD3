@@ -9,7 +9,7 @@ body {
                          "seccion seccion aside"
                          "footer footer footer";
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px  1fr 80px ;
+    grid-template-rows: 1fr  600px 80px ;
     gap: 20px;
 }
 
@@ -21,10 +21,27 @@ body {
 
 #contenedor_1 {
     background-color: cornsilk;
-    padding: 6%;
+    padding: 1%;
     grid-area: seccion;
+    display: grid;
+    grid-template-areas: "item1 item2"
+                         "item3 item3";
 }
 
+.item_1 {
+    background-color: darkslateblue;
+    grid-area: item1;
+}
+
+.item_2 {
+    background-color:darkviolet;
+    grid-area: item2;
+}
+
+.item_3 {
+    background-color: deeppink;
+    grid-area: item3;
+}
 #contenedor_2 {
     background-color: darkgrey;
     padding: 8%;
